@@ -33,6 +33,8 @@ img.d-block{
  .cardsss{
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
+    flex-basis: 200px;
  }
  a.btn.btn-primary{
    background-color: gray;
@@ -92,6 +94,21 @@ img.d-block{
     background-color: red;
     margin-left: 35px;
 }
-.pp{
-    
-}
+.landing-content {
+    /* transform: translateY(100px);
+    opacity: 0;
+    transition: all 1.5s ease-out; */
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 2s ease-in forwards; /* Trigger fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px); /* Slide in slightly */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
