@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  .mobile {
+    display: block;
+    display: flex;
+    flex: wrap;
+  }
+  .cardsss {
+    display: block;
+    display: flex;
+    flex: wrap;
+    gap: 10px
+    ;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+    
