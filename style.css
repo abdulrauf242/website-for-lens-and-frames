@@ -36,6 +36,11 @@ img.d-block{
     flex-wrap: wrap;
     flex-basis: 200px;
  }
+ .main-class{
+    margin-top: 20px;
+    margin-left: 70px;
+    /* margin-right: 30px; */
+ }
  a.btn.btn-primary{
    background-color: gray;
     border: 1px dashed black;

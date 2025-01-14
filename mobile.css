@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 56px) and (max-width: 768px) {
   .mobile {
     display: block;
     display: flex;
