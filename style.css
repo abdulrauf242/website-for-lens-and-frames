@@ -32,7 +32,7 @@ img.d-block{
 } */
  .cardsss{
     display: flex;
-    gap: 130px;
+    gap: 120px;
     flex-wrap: wrap;
     flex-basis: 200px;
  }
